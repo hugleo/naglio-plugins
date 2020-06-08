@@ -2504,7 +2504,7 @@ for (my $i=0;$i < $num_int; $i++) {
 
       # Calculate total as average
       if ($jj>0) {
-        for (my $k=0;$k<5;$k++) {
+        for (my $k=0;$k<6;$k++) {
           $n=0;
           for ($j=0;$j<$jj;$j++) {
 	    if ($checkperf_out_raw[$j][$k]!=0) {
